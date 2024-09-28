@@ -4,9 +4,6 @@ import { Ionicons } from '@expo/vector-icons';
 import axios from 'axios';
 import TMDB_API_KEY from './Apikey'
 
-
-//const TMDB_API_KEY = 'be9e4c16dd14e02dbddd8d8b195e4c6f';
-
 export default function Feed() {
   const [movies, setMovies] = useState([]);
 
